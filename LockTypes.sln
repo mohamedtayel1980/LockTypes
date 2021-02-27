@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1300
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PadlockSample", "PadlockSample\PadlockSample.csproj", "{DD07C71F-1DE4-483B-9C6B-02BCF9BE0617}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterlockedOperations", "InterlockedOperations\InterlockedOperations.csproj", "{9E213F8D-15A6-430F-8AFA-DA91FBB78346}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpainLockSample", "SpainLockSample\SpainLockSample.csproj", "{0216E991-23C4-443D-891E-BF9BE116674A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutexSample", "MutexSample\MutexSample.csproj", "{27910769-A7A3-4CA7-AF84-E0CEDA09F73E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{0216E991-23C4-443D-891E-BF9BE116674A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0216E991-23C4-443D-891E-BF9BE116674A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0216E991-23C4-443D-891E-BF9BE116674A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27910769-A7A3-4CA7-AF84-E0CEDA09F73E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27910769-A7A3-4CA7-AF84-E0CEDA09F73E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27910769-A7A3-4CA7-AF84-E0CEDA09F73E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27910769-A7A3-4CA7-AF84-E0CEDA09F73E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
